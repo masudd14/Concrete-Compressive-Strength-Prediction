@@ -1,0 +1,25 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Heavy Model Weights (>100MB exceeds GitHub push limits)
+models/final_model.pkl
+*.pkl
+!models/columns_name.pkl
+
+# IDEs & System Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+push_to_github.bat
